@@ -6,8 +6,8 @@ run:
 	@echo "Run test"
 	uname -a
 	cat /etc/lsb-release
-	virsh list
-	docker ps
+#	virsh list
+#	docker ps
 	ls -l /dev/tpm0
 	sudo apt-get update
 	sudo apt-get -y install tpm2-tools
